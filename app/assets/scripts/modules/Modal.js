@@ -10,7 +10,7 @@ class Modal {
     //Хаах товчлуур дарагдсан эсэхийг ажиглах
     this.closeIcon.addEventListener("click", () => this.closeModal());
     //Keyboard дээрээс ямар нэг товчлуур дарсан эсэхийг ажиглах
-    document.addEventListener("keyup", e => this.keyPressHandler(e));
+    document.addEventListener("keyup", (e) => this.keyPressHandler(e));
   }
 
   keyPressHandler(e) {
@@ -42,7 +42,7 @@ class Modal {
         <div class="wrapper wrapper--narrow">
           <p class="modal__description">
             Бид тун удахгүй онлайнаар захиалга өгөх системийг нээх бөгөөд, та
-            одоогоор доорхи сошиал платформуудаар дамжиуулж бидэнтэй холбогдох
+            одоогоор доорхи сошиал платформуудаар дамжлуулж бидэнтэй холбогдох
             боломжтой!
           </p>
         </div>
